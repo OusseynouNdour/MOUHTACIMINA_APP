@@ -1,6 +1,6 @@
 from django.db import models
 
-from mouhtacimina.profils.models import Member
+from profils.models import Member
 
 class Payment(models.Model):
     member = models.ForeignKey(Member, on_delete=models.CASCADE)

@@ -1,7 +1,7 @@
 
 from django.db import models
 
-from mouhtacimina.profils.models import Member
+from profils.models import Member
 
 class Event(models.Model):
     name = models.CharField(max_length=200)
