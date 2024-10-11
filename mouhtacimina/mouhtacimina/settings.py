@@ -83,7 +83,7 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mouhtacima',
+        'NAME': 'mouhtacimina',
         'USER': 'postgres',
         'PASSWORD': 'Alkhalifa@7',
         'HOST': 'localhost',  # Ou l'adresse IP de ton serveur PostgreSQL
