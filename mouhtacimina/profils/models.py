@@ -21,7 +21,10 @@ class Member(models.Model):
         IPSL = 'IPSL',
         Sante = '2S',
         AGRO = '2SATA',
-        DROIT = 'SJP'
+        DROIT = 'SJP',
+        Langue = 'LSH',
+        TEACH = 'SEFS',
+        SPORT = 'STAPS'
 
     class Martial_status(models.TextChoices):
         Marie = 'Marié',
